@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- بداية كود الـ SEO (عشان جوجل يشوفك) -->
+    <meta name="description" content="متجر 3thmanz Store - تحميل تطبيق Bazniso لإدارة المحلات والمخازن والكاشير. أفضل تطبيق مجاني للأندرويد.">
+    <meta name="keywords" content="Bazniso, كاشير, إدارة محلات, برنامج مبيعات, تطبيق مخازن, Osman Store, 3thmanz, تحميل تطبيقات, أندرويد">
+    <meta name="author" content="3thmanz">
+    <meta property="og:title" content="3thmanz App Store | متجر التطبيقات الذكية">
+    <meta property="og:description" content="حمل تطبيق Bazniso الآن وابدأ إدارة مشروعك بذكاء.">
+    <!-- نهاية كود الـ SEO -->
+
     <title>3thmanz App Store</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
     
@@ -16,7 +25,7 @@
         
         body {
             font-family: 'Cairo', sans-serif;
-            background-color: #f3f4f6; /* رجعتلك الخلفية فاتحة عشان تليق مع ذوقك */
+            background-color: #f3f4f6;
             margin: 0;
             padding: 0;
             color: #1f2937;
@@ -101,11 +110,12 @@
         .app-card:hover { transform: translateY(-5px); border-color: var(--primary); }
         
         .app-icon-img {
-            width: 70px;
-            height: 70px;
-            border-radius: 15px;
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
             margin-bottom: 10px;
-            object-fit: cover;
+            object-fit: cover; /* يخلي الصورة تملأ المربع بشكل حلو */
+            background-color: #e5e7eb; /* لون رمادي يظهر لو الصورة فيها مشكلة */
         }
         
         .app-name { font-weight: bold; font-size: 1rem; margin-bottom: 5px; display: block; color: #111827; text-decoration: none;}
@@ -142,17 +152,18 @@
             <p>إدارة المحلات بذكاء.</p>
             <a href="https://www.mediafire.com/file/91wr20c5y3ceuux/Bazniso.apk/file" class="hero-btn">تحميل الآن</a>
         </div>
-        <!-- هنا حطيتلك صورة أونلاين شغالة 100% -->
-        <img src="https://cdn-icons-png.flaticon.com/512/2897/2897820.png" alt="App" style="width: 80px; height: 80px;">
+        <!-- رجعتلك الصورة icon.png -->
+        <img src="icon.png" alt="App Icon" class="app-icon-img" style="border: 2px solid white;">
     </div>
 
     <div class="section-title">كل التطبيقات 🔥</div>
 
     <div class="app-grid" id="appGrid">
 
-        <!-- تطبيق 1: بازنيسو (تم إصلاح الصورة) -->
+        <!-- تطبيق 1: بازنيسو -->
         <div class="app-card">
-            <img src="https://cdn-icons-png.flaticon.com/512/2897/2897820.png" class="app-icon-img" alt="Bazniso">
+            <!-- رجعتلك الصورة icon.png -->
+            <img src="icon.png" class="app-icon-img" alt="Bazniso">
             <a href="#" class="app-name">Bazniso</a>
             <span class="app-cat">أعمال</span>
             <a href="https://www.mediafire.com/file/91wr20c5y3ceuux/Bazniso.apk/file" class="btn-get active">تحميل</a>
